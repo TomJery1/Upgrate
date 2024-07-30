@@ -1,34 +1,36 @@
 {
-  "name": "C3C FBState Utility",
-  "version": "1.5",
-  "description": "Import/export fbstate.json which can be used to let bot login.",
-  "permissions": [
-    "cookies",
-    "activeTab",
-    "https://*.facebook.com/"
+  "author": "Tom",
+  "autoRestart": true,
+  "accpetPending": false,
+  "developermode": false,
+  "language": "en",
+  "notification": false,
+  "approval": false,
+  "saveState": true,
+  "BOTNAME": "TOM BOT",
+  "PREFIX": "?",
+  "OPERATOR": [
+    "100014896964436",
+    "100000959749712",
+    "100090361566764",
+    "100093044784208",
+    ""
   ],
-  "background": {
-    "scripts": [
-      "background.js"
-    ],
-    "persistent": false
-  },
-  "browser_action": {
-    "default_popup": "popup.html",
-    "default_icon": {
-      "16": "logo/16.png",
-      "32": "logo/32.png",
-      "48": "logo/48.png",
-      "64": "logo/64.png",
-      "128": "logo/128.png"
-    }
-  },
-  "icons": {
-    "16": "logo/16.png",
-    "32": "logo/32.png",
-    "48": "logo/48.png",
-    "64": "logo/64.png",
-    "128": "logo/128.png"
-  },
-  "manifest_version": 2
-}
+  "ADMINBOT": [
+    "100014754734049",
+    "100090361566764",
+    "61555255448716",
+    "61561175294315",
+    ""
+    
+
+    
+  ],
+  "OWNER": ["100000959749712"], 
+  "APPROVED": [],
+  "disabledcmds": [],
+  "disabledevents": [],
+  "note": "make sure that the bot name you entered is all lowercase",
+  "notice": "dont cng author name and owner uid. otherwise bot not working",
+  "notice2": "if you run use email and password, use saveState false; otherwise, use saveState true"
+} 
